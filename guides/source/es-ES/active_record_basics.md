@@ -1,7 +1,8 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https: //guides.rubyonrails.org.**
 
-Lo esencial de Active Record
+Active Record Basics
 ============================
+Lo esencial de Active Record
 
 Esta guía es una introducción a Active Record.
 
@@ -17,8 +18,10 @@ Después de leer esta guía, sabrá:
 
 ------------------------------------------------------------------------------------------
 
-¿Qué es Active Record?
+What is Active Record?
 ----------------------
+¿Qué es Active Record?
+
 
 Active Record es la M en [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) - el
 modelo - que es la capa del sistema responsable de representar a las empresas
@@ -27,7 +30,8 @@ cuyos datos requieren almacenamiento persistente en una base de datos. Es un
 implementación del patrón Active Record, que en sí mismo es una descripción de un
 Sistema de Mapeo Relacional de Objetos.
 
-### El patrón de Active Record
+### The Active Record Pattern
+El patrón de Active Record
 
 [Active Record fue descrito por Martin Fowler](https://www.martinfowler.com/eaaCatalog/activeRecord.html)
 en su libro _Patterns of Enterprise Application Architecture_. En
@@ -36,7 +40,8 @@ opera con esos datos. Active Record considera que garantizar
 la lógica de acceso a datos como parte del objeto educará a los usuarios de ese
 objeto sobre cómo escribir y leer de la base de datos.
 
-### Mapeo Relacional de Objetos
+### Object Relational Mapping
+Mapeo Relacional de Objetos
 
 [Mapeo relacional de objetos](https://en.wikipedia.org/wiki/Object-relational_mapping), comúnmente conocido como su abreviatura ORM, es
 Una técnica que conecta los objetos ricos de una aplicación a tablas en
@@ -47,7 +52,8 @@ código general de acceso a la base de datos.
 
 NOTA: El conocimiento básico de los sistemas de gestión de bases de datos relacionales (RDBMS) y el lenguaje de consulta estructurado (SQL) es útil para comprender completamente Active Record. Consulte [este tutorial](https://www.w3schools.com/sql/default.asp) (o [este](http://www.sqlcourse.com/)) o estudíelos por otros medios si te gustaría aprender más.
 
-### Active Record como marco de referencia ORM
+### Active Record as an ORM Framework
+Active Record como marco de referencia ORM
 
 Active Record nos brinda varios mecanismos, el más importante es la habilidad
 a:
@@ -58,9 +64,9 @@ a:
 * Valide los modelos antes de que persistan en la base de datos.
 * Realizar operaciones de base de datos de manera orientada a objetos.
 
-
-Convención sobre configuración en Active Record
+Convention over Configuration in Active Record
 ----------------------------------------------
+Convención sobre configuración en Active Record
 
 Al escribir aplicaciones utilizando otros lenguajes de programación o marcos,
 puede ser necesario escribir mucho código de configuración. Esto es particularmente cierto
@@ -71,8 +77,8 @@ configura sus aplicaciones de la misma manera la mayor parte del tiempo, entonce
 debería ser la forma predeterminada. Por lo tanto, se necesitaría una configuración explícita
 solo en aquellos casos en los que no puede seguir la convención estándar.
 
-
-### Convenciones de nombres
+### Naming Conventions
+Convenciones de nombres
 
 De forma predeterminada, Active Record utiliza algunas convenciones de nomenclatura para averiguar cómo
 Se debe crear un mapeo entre modelos y tablas de bases de datos. Rails
@@ -96,8 +102,8 @@ por guiones bajos. Ejemplos:
 | `Mouse`          | `mice`         |
 | `Person`         | `people`       |
 
-
-### Convenciones de Esquema
+### Schema Conventions
+Convenciones de Esquema
 
 Active Record utiliza convenciones de nomenclatura para las columnas en las tablas de la base de datos,
 dependiendo del propósito de estas columnas.
@@ -132,8 +138,10 @@ a instancias de Active Record:
 
 NOTA: Si bien estos nombres de columna son opcionales, de hecho están reservados por Active Record. Manténgase alejado de las palabras clave reservadas a menos que desee la funcionalidad adicional. Por ejemplo, `type` es una palabra clave reservada que se usa para designar una tabla usando la herencia de tabla única (Singel Table Inheritance). Si no está utilizando STI, intente con una palabra clave análoga como "contexto", que aún puede describir con precisión los datos que está modelando.
 
+Creating Active Record Models
+-----------------------------
 Crear modelos de Active Record
-------------------------------
+
 
 Para crear modelos de Active Record, subclasifique la clase `ApplicationRecord` y estará listo:
 
@@ -164,9 +172,10 @@ p = Product.new
 p.name = "Some Book"
 puts p.name # "Some Book"
 ```
-
+Overriding the Naming Conventions
+---------------------------------
 Anulación de las convenciones de nomenclatura
----------------------------------------------
+
 
 ¿Qué sucede si necesita seguir una convención de nomenclatura diferente o si necesita usar su
 Aplicación Rails con una base de datos heredada? No hay problema, puedes anular fácilmente
@@ -205,8 +214,10 @@ end
 
 NOTA: Active Record no admite el uso de columnas de clave no primaria llamadas `id`.
 
-CRUD: lectura y escritura de datos
+CRUD: Reading and Writing Data
 ------------------------------
+CRUD: lectura y escritura de datos
+
 
 CRUD es un acrónimo de los cuatro verbos que usamos para operar con datos: **C**reate,
 **R**ead, **U**pdate and **D**elete. Active Record crea automáticamente métodos
@@ -320,8 +331,9 @@ User.destroy_by(name: 'David')
 User.destroy_all
 ```
 
-Validaciones
+Validations
 -----------
+Validaciones
 
 Active Record le permite validar el estado de un modelo antes de que se escriba
 en la base de datos. Existen varios métodos que puede utilizar para verificar su
