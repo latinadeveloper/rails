@@ -1,4 +1,4 @@
-*NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https: //guides.rubyonrails.org.**
+**NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
 Active Record Validations
 =========================
@@ -497,7 +497,7 @@ mensaje de error por defecto es _"must be odd"_.
 * `:even` - especifica que el valor debe ser un número par si se establece a true. El 
  mensaje de error por defecto es _"must be even"_.
 
-NOTA: Por defecto, `numericality` no permite valores `nil`. Puedes utilizar la opción`allow_nil: true` para permitirlo.
+NOTE: Por defecto, `numericality` no permite valores `nil`. Puedes utilizar la opción`allow_nil: true` para permitirlo.
 
 El mensaje de error para esta opción es _"is not a number"_.
 

@@ -1,4 +1,4 @@
-*NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https: //guides.rubyonrails.org.**
+**NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
 Active Record Callbacks
 =======================
