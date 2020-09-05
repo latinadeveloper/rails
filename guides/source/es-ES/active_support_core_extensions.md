@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Support Core Extensions
-==============================
+Extensiones de Núcleo de Active Support
+=======================================
 
 Active Support es el componente Ruby on Rails responsable de proporcionar extensiones de lenguaje Ruby, utilidades y otras cosas transversales.
 

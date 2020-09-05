@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action View Overview
-====================
+Descripción General de la Action View
+=====================================
 
 Después de leer esta guía, sabrá:
 

@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Storage Overview
-=======================
+Descripción General de Active Storage
+=====================================
 
 Este guía cubre cómo adjuntar archivos a sus modelos de Active Record.
 

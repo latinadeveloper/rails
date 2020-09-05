@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action Cable Overview
-=====================
+Descripción General de Action Cable
+===================================
 
 En esta guía, aprenderá cómo funciona Action Cable y cómo usar WebSockets para
 incorpore funciones en tiempo real en su aplicación Rails.

@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Rails Routing from the Outside In
-=================================
+Rails Routing Desde el Exterior Hacia Adentro
+=============================================
 
 Esta guía cubre las funciones orientadas al usuario del enrutamiento Rails.
 

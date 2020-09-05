@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action View Form Helpers
-========================
+Ayudantes de Formulario de Action
+=================================
 
 Los formularios en las aplicaciones web son una interfaz esencial para la entrada del usuario. Sin embargo, escribir y mantener el marcado de formularios puede volverse tedioso rápidamente debido a la necesidad de manejar la denominación del control de formularios y sus numerosos atributos. Rails elimina esta complejidad al proporcionar ayudantes de vista para generar marcas de formularios. Sin embargo, dado que estos ayudantes tienen diferentes casos de uso, los desarrolladores deben conocer las diferencias entre los métodos auxiliares antes de ponerlos en práctica.
 

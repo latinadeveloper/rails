@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Configuring Rails Applications
-==============================
+Configuración de Aplicaciones de Rails
+======================================
 
 Esta guía cubre las funciones de configuración e inicialización disponibles para las aplicaciones Rails.
 

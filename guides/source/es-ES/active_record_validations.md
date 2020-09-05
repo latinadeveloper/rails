@@ -1,6 +1,6 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Record Validations
+Validaciones de Active Record
 =========================
 Resumen de Validaciones
 

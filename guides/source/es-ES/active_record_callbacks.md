@@ -1,8 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Record Callbacks
-=======================
-Active Record Devoluciones de Llamada 
+Devolución (callbacks) de Llamadas de Active Record
+====================================================
 
 Esta guía le enseña cómo conectarse al ciclo de vida de su Registro Activo
 objetos.

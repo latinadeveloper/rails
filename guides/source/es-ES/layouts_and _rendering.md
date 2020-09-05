@@ -1,6 +1,6 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Layouts and Rendering in Rails
+Diseños y Renderizado en Rails
 ==============================
 
 Esta guía cubre las características de diseño básicas de Action Controller y Action View.

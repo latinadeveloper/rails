@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action Controller Overview
-==========================
+Descripción General de Action Controller
+========================================
 
 En esta guía, aprenderá cómo funcionan los controladores y cómo encajan en el ciclo de solicitud de su aplicación.
 

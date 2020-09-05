@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action Mailer Basics
-====================
+Conceptos Básicos de Action Mailer
+==================================
 
 Esta guía le proporciona todo lo que necesita para comenzar a enviar
 correos electrónicos desde y hacia su aplicación, y muchos aspectos internos de Action

@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Record Associations
-==========================
+Asociaciones de Active Record
+=============================
 Asociaciones de registros activos
 
 Esta guía cubre las características de asociación de Active Record.

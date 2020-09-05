@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Testing Rails Applications
-==========================
+Prueba de Aplicaciones de Rails
+===============================
 
 Esta guía cubre los mecanismos integrados en Rails para probar su aplicación.
 

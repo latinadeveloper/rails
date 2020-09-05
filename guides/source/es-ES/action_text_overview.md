@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action Text Overview
-====================
+Descripción General de Action Text
+==================================
 
 Este guía le proporciona todo lo que necesita para comenzar a manejar
 contenido de texto enriquecido.

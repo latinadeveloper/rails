@@ -1,8 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Record Query Interface
-=============================
-Interfaz de Consulta de Active Record 
+Interfaz de Consulta de Active Record
+=====================================
 
 Este guía cubre diferentes formas de recuperar datos de la base de datos utilizando Active Record.
 

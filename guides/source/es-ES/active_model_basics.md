@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Model Basics
-===================
+Conceptos Básicos del Active Model
+==================================
 
 Esta guía debe proporcionarle todo lo que necesita para comenzar a usar el modelo
 clases Active Model permite que los ayudantes de Action Pack interactúen con

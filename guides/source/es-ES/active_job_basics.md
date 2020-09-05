@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Active Job Basics
-=================
+Conceptos Básicos de Active Job
+===============================
 
 Este guía le proporciona todo lo que necesita para comenzar a crear,
 poner en cola y ejecutar trabajos en segundo plano.

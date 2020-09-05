@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Action Mailbox Basics
-=====================
+Conceptos Básicos de Action Mailbox
+===================================
 
 Este guía le proporciona todo lo que necesita para comenzar a recibir
 correos electrónicos a su aplicación.

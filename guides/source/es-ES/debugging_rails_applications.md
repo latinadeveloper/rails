@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Debugging Rails Applications
-============================
+Depuración de Applications Rails
+================================
 
 Esta guía presenta técnicas para depurar aplicaciones Ruby on Rails.
 

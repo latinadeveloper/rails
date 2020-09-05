@@ -1,7 +1,7 @@
 **NO LEA ESTE ARCHIVO EN GITHUB, LAS GUÍAS SE PUBLICAN EN https://guides.rubyonrails.org.**
 
-Securing Rails Applications
-===========================
+Seguridad de Aplicaciones Rails
+===============================
 
 Este manual describe problemas de seguridad comunes en aplicaciones web y cómo evitarlos con Rails.
 
