@@ -538,9 +538,8 @@ h6 {
 
 #header h1 {
   float: left;
-  background: url(../images/rails_guides_logo_1x.png) no-repeat;
-  width: 297px;
-  text-indent: -9999em;
+  /*background: url(../images/rails_guides_logo_1x.png) no-repeat;*/
+  width: 400px;
   margin: 0;
   padding: 0;
 }
@@ -553,7 +552,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
   #header h1 {
-    background: url(../images/rails_guides_logo_2x.png) no-repeat;
+    /*background: url(../images/rails_guides_logo_2x.png) no-repeat;*/
     background-size: 160%;
   }
 }
@@ -568,6 +567,8 @@ only screen and (                min-resolution: 2dppx) {
   text-decoration: none;
   display: block;
   height: 77px;
+  color: white;
+  padding-top: 50px;
 }
 
 #feature p {

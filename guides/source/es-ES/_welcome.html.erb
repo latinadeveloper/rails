@@ -1,0 +1,14 @@
+<% if @edge %>
+<p>
+  Estas son guías de traducción, basadas en master<a href="https://github.com/rails/rails/tree/v6.0.3.2"></a>.
+</p>
+<p>
+  Si está buscando los de la versión estable, consulte
+  <a href="https://guides.rubyonrails.org">https://guides.rubyonrails.org</a> en su lugar.
+</p>
+<% else %>
+<p>
+  Estas son las nuevas guías para Rails 6.0 basadas en <a href="https://github.com/rails/rails/tree/<%= @version %>"><%= @version %></a>.
+  Estas guías están diseñadas para hacerlo productivo de inmediato con Rails y para ayudarlo a comprender cómo encajan todas las piezas.
+</p>
+<% end %>
